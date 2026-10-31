@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ananias Moraes - Técnico em Eletrônica e estudante de Engenharia de Computação.">
+<title>Ananias Moraes | Perfil Profissional</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #080f1d;
+    color: #f1f5f9;
+    line-height: 1.7;
+}
+
+header {
+    background: #0d192b;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #23334a;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    min-height: 520px;
+    padding: 100px 8%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #0d192b, #102b46);
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.tag {
+    color: #38bdf8;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: clamp(40px, 7vw, 65px);
+    line-height: 1.15;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #bdc9d8;
+    font-size: 18px;
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #0284c7;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 75px 8%;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.section-title span {
+    color: #38bdf8;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 35px;
+}
+
+.about {
+    background: #0b1525;
+}
+
+.about p {
+    max-width: 850px;
+    color: #cbd5e1;
+    font-size: 17px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: #111f33;
+    border: 1px solid #263951;
+    border-radius: 12px;
+    padding: 28px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.card .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #bdc9d8;
+    font-size: 15px;
+}
+
+.contact {
+    background: #0d192b;
+    text-align: center;
+}
+
+.contact p {
+    color: #bdc9d8;
+    margin: 15px auto 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+    background: #080f1d;
+    border-top: 1px solid #23334a;
+    font-size: 13px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 18px #0008;
+    z-index: 10;
+}
+
+.whatsapp:hover {
+    background: #1da851;
+}
+
+@media(max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 75px 7%;
+    }
+
+    section {
+        padding: 55px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ANANIAS MORAES</div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <div class="tag">Perfil Profissional</div>
+
+        <h1>
+            Olá, sou <span>Ananias Moraes</span>
+        </h1>
+
+        <p>
+            Técnico em Eletrônica, com experiência profissional
+            na indústria e atualmente cursando Engenharia de
+            Computação. Apaixonado por tecnologia, inovação
+            e desenvolvimento profissional.
+        </p>
+
+        <a class="btn"
+           href="https://wa.me/5592986193416"
+           target="_blank">
+           Fale comigo
+        </a>
+    </div>
+</section>
+
+<section class="about" id="sobre">
+    <h2 class="section-title">Sobre <span>mim</span></h2>
+    <p>
+        Meu nome é Ananias Moraes. Sou profissional da área
+        de eletrônica, com formação técnica e experiência
+        na empresa Jabil. Atualmente estou cursando
+        Engenharia de Computação, buscando ampliar meus
+        conhecimentos em tecnologia, sistemas e inovação.
+        Tenho interesse em novos desafios, aprendizado
+        contínuo e oportunidades de crescimento profissional.
+    </p>
+</section>
+
+<section id="experiencia">
+    <h2 class="section-title">Experiência <span>Profissional</span></h2>
+    <p class="subtitle">Minha trajetória profissional</p>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">⚙️</div>
+            <h3>Jabil</h3>
+            <p><strong>Técnico</strong></p>
+            <p>
+                Experiência profissional na empresa Jabil,
+                atuando na área técnica e desenvolvendo
+                conhecimentos no ambiente industrial.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="formacao">
+    <h2 class="section-title">Formação e <span>Cursos</span></h2>
+    <p class="subtitle">Conhecimentos e qualificação profissional</p>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">🎓</div>
+            <h3>Engenharia de Computação</h3>
+            <p>
+                Graduação em andamento.
+                Buscando conhecimento em computação e tecnologia.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔌</div>
+            <h3>Técnico em Eletrônica</h3>
+            <p>
+                Formação técnica na área de eletrônica,
+                com conhecimentos voltados à área técnica.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💡</div>
+            <h3>Eletricista</h3>
+            <p>
+                Curso de qualificação profissional em eletricidade.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contato">
+    <h2 class="section-title">Vamos <span>conversar?</span></h2>
+
+    <p>
+        Estou aberto a oportunidades profissionais,
+        novos desafios e conexões.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/5592986193416?text=Olá%20Ananias!%20Gostaria%20de%20conversar%20com%20você."
+       target="_blank">
+       Entrar em contato pelo WhatsApp
+    </a>
+</section>
+
+</main>
+
+<footer>
+    © 2026 Ananias Moraes - Todos os direitos reservados.
+</footer>
+
+<a class="whatsapp"
+   href="https://wa.me/5592986193416"
+   target="_blank"
+   aria-label="Conversar pelo WhatsApp">
+   WhatsApp
+</a>
+
+</body>
+</html>
